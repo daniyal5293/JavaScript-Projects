@@ -36,7 +36,7 @@ body{
 .options:hover{
     transition: all 1s ease;
     font-weight: 30px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .submit{

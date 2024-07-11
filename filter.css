@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+}
+
+.leftMenu{
+    flex: 1;
+}
+
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 2px solid grey;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: grey;
+}
+
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.cat{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 50px;
+    padding: 5px;
+    /* border-bottom: 1px solid; */
+}
+
+.cat:hover{
+    transition: all 0.1s ease;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(6, 84, 110);
+   
+}
+
+.priceRange{
+    cursor: pointer;
+}
+
+.content{
+    flex: 4;
+  
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product{
+width: 300px;
+/* border: 1px solid;   */
+display: flex;
+flex-direction: column;
+gap: 15px;
+align-items: center;
+
+}
+
+img{
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.name{
+    font-weight: 300;
+}
+
