@@ -60,7 +60,7 @@ body{
 }
 
 .result{
-    
+    display: none;
     padding: 45px;
    text-align: center;
 }
